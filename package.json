@@ -1,0 +1,28 @@
+{
+  "name": "d9attributes",
+  "version": "1.0.0",
+  "description": "Node js library for drupal 9 attribute object emulation.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm prune && npm update",
+    "test": "tap test/*.js --cov --reporter=spec --100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seyallin/D9Attributes.git"
+  },
+  "keywords": [
+    "attributes",
+    "Drupal9",
+    "drupal"
+  ],
+  "author": "Serhii Yallin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/seyallin/D9Attributes/issues"
+  },
+  "homepage": "https://github.com/seyallin/D9Attributes#readme",
+  "devDependencies": {
+    "tap": "^16.3.0"
+  }
+}
