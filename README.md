@@ -11,9 +11,9 @@ Main idea is using this library in projects with twig templates for components o
 
 ```bash
 npm install d9attributes
+```
 
 ## How to use.
-```
 
 In my case, I combine the Storybook React and Storybook HTML versions(I know this method is not preferred, but I need this in my task).
 
